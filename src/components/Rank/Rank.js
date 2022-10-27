@@ -23,13 +23,13 @@ class Rank extends React.Component {
     };
   }
   render() {
-    const { name, entries, email } = this.props;
+    const { name, entries } = this.props;
     return (
       <div>
         <div className="white f3">
-          {`${name}, your current entry count is... and your email is: ${email}`}
+          {`${name}, your current entry count is... `}
         </div>
-        <div className="white f1">{`${entries} avion`}</div>
+        <div className="white f1">{`${entries}`}</div>
       </div>
     );
   }
